@@ -713,3 +713,26 @@ Ok, one module loaded.
 2022-06-30 15:57:00.307549139
 >>> :q
 Leaving GHCi.
+GHCi, version 9.0.2: https://www.haskell.org/ghc/  :? for help
+Loaded GHCi configuration from /home/noa/bprog2022/.ghci
+2022-07-07 16:05:09.032837338
+>>> :e src/Caesar.hs
+   1  module Caesar where
+   2  
+   3  import Data.Char
+Ok, no modules loaded.
+2022-07-07 16:06:14.468531866
+>>> :l src/Caesar.hs
+[1 of 1] Compiling Caesar           ( src/Caesar.hs, interpreted )
+Ok, one module loaded.
+2022-07-07 16:06:14.520657434
+>>> ord 'A'
+65
+2022-07-07 16:06:38.688999736
+>>> ord 'a'
+97
+2022-07-07 16:06:50.101696836
+>>> import Data.Char
+2022-07-07 16:11:12.284907161
+>>> :q
+Leaving GHCi.
